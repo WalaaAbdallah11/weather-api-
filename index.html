@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>weather</title>
+</head>
+<body>
+    <section class="p-5 min-vh-100">
+        <div class="container-fluid w-80 bg p-5">
+            <div class="d-flex justify-content-center align-content-center text-white">
+                <img src="./images/logo@2x.png"  alt="weather-image" class="img">
+                <div class="mx-2">
+                    <h3>Weather</h3>
+                    <p>tagline goes here</p>
+                </div>
+            </div>
+            <div class="search my-4 ">
+                <input type="search" id="searchInput" class="form-control rounded rounded-5 p-15 " placeholder="Find your location">
+                <i class="fa-solid fa-magnifying-glass " id="submit"></i>
+                <!-- <input type="button" value="Find" id="submit"> -->
+            </div>
+            <div class="row gy-4" id="rowData">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.w-80{
+    width: 70%;
+}
+section{
+    background-image: linear-gradient(135deg, #f1faf7,#ecebf1);
+}
+.img{
+    width: 80px;
+    height: 50px;
+  
+}
+.p-15{
+    padding: 12px;
+}
+.search{
+    position: relative;
+}
+.bg{
+    background-image: linear-gradient(135deg, #00feba,#5b548a);
+
+}
+.search i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 25px;
+    width: 80px;
+    height: 42px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #00feba,#5b548a);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media screen and (max-width:991px){
+    .container-fluid{
+        width: 100%;
+
+    }
+    .search i{
+        font-size: 18px;
+    width: 45px;
+    height: 42px;
+    border-radius: 30px;
+    }
+}
+.degree{
+    font-size: 80px;
+    font-weight: bold;
+}
+.degree1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.cloudd{
+    font-size: 50px;
+}
+.clouddd{
+    font-size: 35px;
+}
+.icons span{
+    margin-right: 8px;
+}
+.row .card
+{
+    border: none;
+    background-image: linear-gradient(135deg,#5b548a,#00feba);
+    height: 330px;
+}
